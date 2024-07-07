@@ -1,0 +1,52 @@
+# Ignore input and output directories
+input/
+output/
+
+# Python-related ignores
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.env
+
+# IDE-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# LaTeX intermediate files
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+
+# PDF files (if you don't want to track them in git)
+*.pdf
+
+# Zip files (if you don't want to track input zip files)
+*.zip
+
+# Ignore pipenv / poetry lock files
+Pipfile.lock
+poetry.lock
